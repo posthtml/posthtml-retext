@@ -1,0 +1,52 @@
+{
+  "name": "posthtml-retext",
+  "version": "0.1.0",
+  "description": "Retext PostHTML plugin",
+  "main": "index.js",
+  "dependencies": {
+    "retext": "^1.0.0",
+    "posthtml": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "retext-emoji": "^1.0.0",
+    "retext-smartypants": "^1.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "jshint . && jscs . -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voischev/posthtml-retext.git"
+  },
+  "keywords": [
+    "analyse",
+    "format",
+    "html",
+    "language",
+    "manipulate",
+    "manipulation",
+    "natural",
+    "nlcst",
+    "parser",
+    "plugin",
+    "posthtml",
+    "posthtml-plugin",
+    "postproccessor",
+    "retext",
+    "text",
+    "transform",
+    "typography",
+    "xml"
+  ],
+  "author": "Ivan Voischev <voischev.ivan@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voischev/posthtml-retext/issues"
+  },
+  "homepage": "https://github.com/voischev/posthtml-retext#readme"
+}
