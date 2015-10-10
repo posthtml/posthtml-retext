@@ -11,7 +11,7 @@ module.exports = function(plugins) {
 
     return function posthtmlRetext(tree) {
         tree.walk(function(node) {
-            if(typeof(node) === 'string' && !/^\n\s*$/.test(node)) {
+            if(typeof node === 'string' && !/^\n\s*$/.test(node)) {
                 return toTree(retext.process(node))[0];
             }
             return node;
