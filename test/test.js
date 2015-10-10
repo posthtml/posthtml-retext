@@ -9,7 +9,6 @@ function test(input, output, plugins, done) {
         .use(pretext(plugins))
         .process(input)
         .then(function(result) {
-            fs.writeFileSync('./test/test.html', result.html, 'utf-8');
             expect(output).to.eql(result.html);
             done();
         }).catch(function(error) {
