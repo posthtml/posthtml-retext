@@ -1,7 +1,7 @@
 # PostHTML-Retext
 [![npm version](https://badge.fury.io/js/posthtml-retext.svg)](http://badge.fury.io/js/posthtml-retext)
 
-[PostHTML](http://github.com/posthtml/posthtml) plugin wrapper over [retext](https://github.com/wooorm/retext) extensible system for analysing and manipulating natural language
+[PostHTML](http://github.com/posthtml/posthtml) plugin wrapper over [Retext](https://github.com/wooorm/retext) extensible system for analysing and manipulating natural language
 
 ## Usage
 
